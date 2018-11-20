@@ -1,14 +1,14 @@
-﻿spring:
-  profiles:
-    active:
+﻿spring: 
+  profiles:  
+    active: 
     - dev
 ---
-spring:
-  profiles:dev
-  application:
-    name:servicecloud-config-share-dev
+spring: 
+  profiles: dev
+  application: 
+    name: servicecloud-config-share-dev
 ---
-spring:
-  profiles:test
-      application:
-        name:servicecloud-config-share-test
+spring: 
+  profiles: test
+      application: 
+        name: servicecloud-config-share-test
